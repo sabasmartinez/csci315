@@ -1,0 +1,10 @@
+### Starting build.
+# Target: inlecture.ml.depends, tags: { extension:ml, file:inlecture.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules inlecture.ml > inlecture.ml.depends
+# Target: inlecture.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:inlecture.cmo, file:inlecture.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -o inlecture.cmo inlecture.ml
+# Target: inlecture.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:inlecture.d.cmo, file:inlecture.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -g -o inlecture.d.cmo inlecture.ml
+# Target: inlecture.d.byte, tags: { byte, debug, dont_link_with, extension:byte, file:inlecture.d.byte, link, ocaml, program, quiet }
+ocamlfind ocamlc -linkpkg -g inlecture.d.cmo -o inlecture.d.byte
+# Compilation successful.

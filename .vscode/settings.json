@@ -8,5 +8,5 @@
     "editor.formatOnSave": true,
     "ocaml.lintOnSave": true,
     "ocaml.useOpamToResolve": true,
-    "window.zoomLevel": 2
+    "window.zoomLevel": 0
 }

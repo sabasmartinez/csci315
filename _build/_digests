@@ -1,0 +1,5 @@
+"Resource: /workspaces/cs320docker/inlecture.ml": "\1917\154>7*\204e?\152zu\022xq\213"
+"Rule: ocaml: ml -> cmo & cmi (%=inlecture )": "\172\199\129\022\208\173\215\154\173\014\240\151\127\197R\003"
+"Rule: ocaml: ml -> d.cmo & cmi (%=inlecture )": "L\n\031S\144A\026'\247\217\015\026\184\211V\146"
+"Rule: ocaml: d.cmo* -> d.byte (%=inlecture )": "\156\246\221\246.pO \246~M\246\208\195uf"
+"Rule: ocaml dependencies ml (%=inlecture )": "\029\182\220*`j1;\172\137,l\165\230Ou"
